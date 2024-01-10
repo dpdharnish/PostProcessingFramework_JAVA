@@ -9,44 +9,10 @@
 ### -> run the PostProcessign class
 
 ## structure of framework(maven)
-.
-├── PostprocessingFramework
-│   ├── pom.xml
-│   ├── src
-│   │   ├── main
-│   │   │   ├── java
-│   │   │   └── resources
-│   │   └── test
-│   │       ├── java
-│   │       │   └── headspin
-│   │       │       └── io
-│   │       │           ├── PostProcessing.java
-│   │       │           ├── hsapi
-│   │       │           │   ├── GlobalVar.java
-│   │       │           │   ├── HsApi.java
-│   │       │           │   └── PropertyFileReader.java
-│   │       │           └── image
-│   │       │               ├── Screenshot 2024-01-09 at 13.10.21.png
-│   │       │               ├── audio-1_x2Omh5ju.wav
-│   │       │               └── headpsin.png
-│   │       └── resources
-│   │           └── config.properties
-│   └── target
-│       ├── generated-test-sources
-│       │   └── test-annotations
-│       └── test-classes
-│           ├── config.properties
-│           └── headspin
-│               └── io
-│                   ├── PostProcessing.class
-│                   └── hsapi
-│                       ├── GlobalVar.class
-│                       ├── HsApi$1.class
-│                       ├── HsApi$2.class
-│                       ├── HsApi.class
-│                       └── PropertyFileReader.class
-└── README.md
-
+### -> **HsApi**: This class consolidates all APIs related to image analysis.
+### -> **GlobalVar**: Within this class, global variables are stored, serving as shared data across various components of the framework.
+### -> **PropertiesFileReader**: Responsible for reading data from the config.properties file, enhancing configurability.
+### -> **PostProcessing**: Serving as the main orchestrator, this class integrates and coordinates the functionalities of all other classes in the framework.
 
 ## result
 ### [click here](https://ui-dev.headspin.io/sessions/6301e2b4-ae08-11ee-88d8-02ba54f31f4f/waterfall)
