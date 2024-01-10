@@ -8,7 +8,7 @@
 ### -> specify all details in the config.properties file
 ### -> run the PostProcessign class
 
-## file structure
+## structure of framework(maven)
 .
 ├── PostprocessingFramework
 │   ├── pom.xml
